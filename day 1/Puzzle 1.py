@@ -1,5 +1,5 @@
 import re
-f = open("C:\\Users\\Josh\\Documents\\advent of code\\puzzle 1\\input.txt", "r")
+f = open("C:\\Users\\Josh\\Documents\\advent of code\\day 1\\input.txt", "r")
 total = 0
 
 for x in f:

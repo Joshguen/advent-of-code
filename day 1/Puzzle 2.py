@@ -1,5 +1,5 @@
 import re
-f = open("C:\\Users\\Josh\\Documents\\advent of code\\puzzle 1\\input.txt", "r")
+f = open("C:\\Users\\Josh\\Documents\\advent of code\\day 1\\input.txt", "r")
 total = 0
 numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
 words = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
