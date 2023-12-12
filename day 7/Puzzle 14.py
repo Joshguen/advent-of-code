@@ -7,7 +7,6 @@ class CamelHand:
     bid: int
 
 f = open("C:\\Users\\Josh\\Documents\\advent of code\\day 7\\input.txt", "r")
-#change to real input later!
 
 highList, pairList, twoPairList, threeList, fullHList, fourList, fiveList = ([] for i in range(7))
 allList = [highList, pairList, twoPairList, threeList, fullHList, fourList, fiveList]
@@ -82,7 +81,5 @@ for x in allList:
     x.sort(key=operator.attrgetter('hand'))
     for y in range(len(x)):
         winnings += x[y].bid * (y + 1 + previous)
-        # print(x[y].hand, x[y].bid, (y + 1 + previous))
-        # print(winnings)
     previous += len(x)
 print(winnings)
