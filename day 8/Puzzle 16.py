@@ -1,3 +1,4 @@
+import math
 import re
 f = open("C:\\Users\\Josh\\Documents\\advent of code\\day 8\\input.txt", "r")
 directions = f.readline()
@@ -32,5 +33,6 @@ for i in range (len(allStarts)):
             allEnds.append(steps)
             break
 #prints a list of First instance of each Z
-#plugging these into a LCM multiplier returns the answer
-print (allEnds)
+#plugging these into a LCM calculator returns the answer
+print (math.lcm(allEnds[0], allEnds[1], allEnds[2], allEnds[3], allEnds[4], allEnds[5]))
+
